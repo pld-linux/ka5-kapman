@@ -1,15 +1,15 @@
-%define		kdeappsver	19.04.1
+%define		kdeappsver	20.12.3
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kapman
 Summary:	Kapman
 Name:		ka5-%{kaname}
-Version:	19.04.1
+Version:	20.12.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
-Source0:	http://download.kde.org/stable/applications/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	22ec3a4bbdf9a6850c02aa05e95059f2
+Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
+# Source0-md5:	c7a1bd36de75899471742e70a6ee02dc
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
