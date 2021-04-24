@@ -1,15 +1,15 @@
-%define		kdeappsver	20.12.3
+%define		kdeappsver	21.04.0
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kapman
 Summary:	Kapman
 Name:		ka5-%{kaname}
-Version:	20.12.3
+Version:	21.04.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	c7a1bd36de75899471742e70a6ee02dc
+# Source0-md5:	28f4eaaedd76f3141780b7d69360cae0
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
@@ -79,7 +79,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/48x48/apps/kapman.png
 %{_iconsdir}/hicolor/64x64/apps/kapman.png
 %{_datadir}/kapman
-%dir %{_datadir}/kxmlgui5/kapman
-%{_datadir}/kxmlgui5/kapman/kapmanui.rc
 %{_datadir}/metainfo/org.kde.kapman.appdata.xml
 %{_datadir}/sounds/kapman
