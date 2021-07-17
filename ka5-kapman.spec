@@ -46,6 +46,14 @@ ghosts for a few seconds. When a stage is cleared of pills and
 energizer the player is taken to the next stage with slightly
 increased game speed.
 
+%description -l pl.UTF-8
+Kapman jest klonem dobrze znanej gry Pac-Man.
+
+Musisz przemieszczać się przez labirynt, połykać pigułki i unikać duchów.
+Zjadając energetyka, Kapman otrzymuje moc zjadania duchów, która trwa
+kilka sekund. Gdy plansza zostanie wyczyszczona z pigułek i energetyka,
+gracz jest przenoszony na następny poziom z nieco przyspieszoną rozgrywką.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
