@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	23.08.3
+%define		kdeappsver	23.08.4
 %define		kframever	5.94.0
 %define		qtver		5.15.2
 %define		kaname		kapman
 Summary:	Kapman
 Name:		ka5-%{kaname}
-Version:	23.08.3
+Version:	23.08.4
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	a54c3fff85e717a049d7bf0109d7eb2e
+# Source0-md5:	5e0660382ec98b72df7cb0dd7badc8c4
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
